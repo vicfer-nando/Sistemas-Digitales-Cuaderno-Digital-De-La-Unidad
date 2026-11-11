@@ -27,11 +27,3 @@ Conviene seguir el orden de cada índice: primero entender el hardware, después
 Los ejemplos AVR corresponden al **ATmega328P de un Arduino Uno clásico**. Los ejemplos ESP32 corresponden al **ESP32 original con módulo WROOM**, habitual en DevKit V1. No deben trasladarse automáticamente a ESP32-C3, S3 u otras variantes. En temporizadores se usa **Arduino-ESP32 3.x**; las llamadas 2.x se muestran aparte para reconocer material antiguo.
 
 Los bloques marcados como fragmentos se insertan en el contexto indicado. Los ejemplos con `setup()` y `loop()` son sketches didácticos independientes: no se concatenan entre sí. Los valores calculados describen el modelo teórico; no representan mediciones de laboratorio.
-
-## Procedencia y precisiones
-
-La organización y los ejemplos parten de los tres conjuntos locales de apuntes. El texto fue reformulado para este cuaderno y los SVG se construyeron desde cero. Las fotografías de los compañeros permanecen exclusivamente en las referencias originales.
-
-Las notas **«Precisión técnica»** separan las aclaraciones verificadas de las simplificaciones de clase. Para localizar documentos y discrepancias, consultar [FUENTES.md](FUENTES.md) y [Análisis de las fuentes](ANALISIS_DE_FUENTES.md). La revisión final consta en [VERIFICACION.md](VERIFICACION.md).
-
-Esta etapa contiene únicamente Markdown y recursos SVG. Los títulos, tablas, fórmulas y figuras están separados por tema para facilitar una futura conversión a Word.
